@@ -51,7 +51,7 @@ describe('Game', () => {
     })
   })
 
-//   describe('nextPlayer', () => {
+  describe('nextPlayer', () => {
 //     it('Sets the current player to be whoever it is not', async () => {
 //       Math.random = () => 0.4
 //       const game = new Game(p1, p2)
@@ -59,7 +59,7 @@ describe('Game', () => {
 //       game.nextPlayer()
 //       expect(game.player).toBe('Nate')
 //     })
-//   })
+  })
 
   describe('hasWinner', () => {
     it('Wins if any row is filled', async () => {
